@@ -1,0 +1,42 @@
+/* Games */
+.page_game {
+    background-color: var(--page-bg-color);
+    text-align: center;
+    height: 1000px;
+    width: 745px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 5px double var(--navbar-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+    overflow-x: auto;
+}
+
+.page_game .info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
+}
+
+.page_game .box {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    height: 280px;
+    width: 250px;
+}
+
+.page_game .box img {
+    margin-top: 5px;
+    height: 220px;
+    width: 220px;
+}
+
+.page_game .box p {
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+

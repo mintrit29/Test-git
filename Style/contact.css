@@ -1,0 +1,107 @@
+/* Contact */
+.page_contact {
+    background-color: var(--page-bg-color);
+    text-align: center;
+    height: 1000px;
+    width: 745px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 5px double var(--navbar-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+    overflow-x: auto;
+}
+
+.page_contact .info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 300px;
+}
+
+.page_contact .box {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    height: 280px;
+    width: 250px;
+}
+
+.page_contact .box img {
+    margin-top: 5px;
+    height: 220px;
+    width: 220px;
+}
+
+.page_contact .box p {
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-inputs {
+    width: 500px;
+    height: 60px;
+    outline: none;
+    padding-left: 25px;
+    font-weight: bold;
+    color: darkred;
+    border-radius: 20px;
+    border:3px solid pink;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 3px solid palevioletred;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #afd2ff, hsl(339, 100%, 80%));
+    cursor: pointer;
+}
+
+.contact-left button:hover {
+    background: linear-gradient(to right, #94c0f8, hsl(339, 97%, 74%));
+}
+
+.icon_contact{
+    margin-top: 210px;
+    font-size: 50px;
+}
+
+.icon_contact i {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: pink;
+}
+
+.icon_contact i:hover {
+    color: palevioletred;
+}
