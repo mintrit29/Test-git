@@ -1,0 +1,97 @@
+/* About me */
+header {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1077px;
+}
+
+header img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 5px double var(--header-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.marquee {
+    background-color: var(--marquee-bg-color);
+    height: 40px;
+    width: 100%;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: var(--marquee-text-color);
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 5px double var(--header-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.marquee div {
+    animation: animate 20s linear infinite;
+    padding-left: 63%;
+    display: inline-block;
+}
+
+@keyframes animate {
+    50% {
+        transform: translateX(-63%);
+    }
+}
+
+.page_about {
+    background-color: var(--page-bg-color);
+    text-align: center;
+    height: 1000px;
+    width: 745px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 5px double var(--navbar-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+    overflow-x: auto;
+}
+
+.page_about .info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--marquee-bg-color);
+    height: 350px;
+}
+
+.page_about .box {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px double var(--navbar-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    background: white;
+    height: 300px;
+    width: 250px;
+}
+
+.page_about .box img {
+    margin-top: 5px;
+    height: 250px;
+    width: 210px;
+}
+
+.page_about .box p {
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_about .img_4 {
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
